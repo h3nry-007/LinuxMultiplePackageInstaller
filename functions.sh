@@ -61,32 +61,32 @@ vlc_install (){
 	echo -e '\n\e[1;33m=============================\e[0m'
 }
 fish_install (){
-	echo -e '\n\e{[0;32mFish Shell installation started\e[0m'
+	echo -e '\n\e[0;32mFish Shell installation started\e[0m'
 	apt install fish -y
 	echo -e '\n\e[1;33m=============================\e[0m'
 }
 gromit_install(){
-	echo -e '\n\e{[0;32mGromit-MPX installation started\e[0m'
+	echo -e '\n\e[0;32mGromit-MPX installation started\e[0m'
 	apt-get update; apt-get upgrade -y ; apt-get install gromit-mpx -y
 	echo -e '\n\e[1;33m=============================\e[0m'
 }
 sublime_install(){
-	echo -e '\n\e{[0;32mSumlime-Text installation started\e[0m'
+	echo -e '\n\e[0;32mSumlime-Text installation started\e[0m'
 	snap install sublime-text --classic
 	echo -e '\n\e[1;33m=============================\e[0m'
 }
 zoom_install (){
-	echo -e '\n\e{[0;32mZoom-Client installation started\e[0m'
+	echo -e '\n\e[0;32mZoom-Client installation started\e[0m'
 	snap install zoom-client
 	echo -e '\n\e[1;33m=============================\e[0m'
 }
 nmap_install(){
-	echo -e '\n\e{[0;32mNmap installation started\e[0m'
+	echo -e '\n\e[0;32mNmap installation started\e[0m'
 	apt-get update ; apt-get upgrade -y ; apt-get install nmap -y
 	echo -e '\n\e[1;33m=============================\e[0m'
 }
 wireshark_install(){
-	echo -e '\n\e{[0;32mWire-Shark installation started\e[0m'
+	echo -e '\n\e[0;32mWire-Shark installation started\e[0m'
 	apt install wireshark-qt
 	echo -e '\n\e[1;33m=============================\e[0m'
 }

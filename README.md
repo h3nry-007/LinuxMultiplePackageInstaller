@@ -15,9 +15,8 @@ You can contribute and send any suggestions to us.
 `cd LinuxMultiplePackageInstaller`
 
 **4. Set execute Permissions to main.sh file and then run**
-`chmod u+x main.sh`
 `sudo ./main.sh`
 
-==**warning**:It need root user permissions==
+**warning**:*It need root user permissions*
 
 This is only for debian based Linux Operating System like debian, Ubuntu, Kali.

@@ -58,7 +58,7 @@ for (( index=0; index<a_length; index++ )); do
         wireshark_install
         ;;
         *)
-        echo -e '\n\t\e[1;31mInvalid\e[0m'
+        echo -e '\n\e[1;31mInvalid\e[0m'
         help_page
     esac
 done
