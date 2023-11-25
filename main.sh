@@ -23,8 +23,8 @@ then
 [4]git \t\t\t[14]zoom-client
 [5]vim \t\t\t[15]nmap
 [6]Network Manager \t[16]WireShark
-[7]VS-code 
-[8]chromium
+[7]VS-code \t\t[17]Java-19
+[8]chromium \t\t[18]Flutter
 [9]gcc & g++
 	"
 	chmod +x condition.sh

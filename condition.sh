@@ -57,6 +57,12 @@ for (( index=0; index<a_length; index++ )); do
         16)
         wireshark_install
         ;;
+        17)
+        java_install
+        ;;
+        18)
+        flutter_install
+        ;;
         *)
         echo -e '\n\e[1;31mInvalid\e[0m'
         help_page

@@ -90,3 +90,13 @@ wireshark_install(){
 	apt install wireshark-qt
 	echo -e '\n\e[1;33m=============================\e[0m'
 }
+ava_install (){
+	echo -e '\n\e[0;32mJava 19 installation started\e[0m'
+	apt install openjdk-19-jdk-headless -y
+	echo -e '\n\e[1;33m=============================\e[0m'
+}
+flutter_install (){
+	echo -e '\n\e[0;32mFlutter installation started\e[0m'
+	snap install flutter
+	echo -e '\n\e[1;33m=============================\e[0m'
+}
